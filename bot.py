@@ -9,7 +9,7 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
 )
-logger = logging.getLogger(jihad)
+logger = logging.getLogger(__name__)  # ✅ সঠিক
 
 # ==================== BOT TOKEN ====================
 TOKEN = "8760909596:AAFU7Um69lCCk_Wuf9kPWO8hQFC2hZ15Nvw"  # এখানে আপনার বট টোকেন দিন
